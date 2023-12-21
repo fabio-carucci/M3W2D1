@@ -11,3 +11,28 @@ button.navbar-toggler {
 main {
     background-color: whitesmoke;
 }
+
+
+
+thead tr > * {
+    background-color: coral !important;
+}
+
+tbody tr:nth-child(even) > * {
+    background-color: rgb(255, 193, 171);
+}
+  
+tbody > tr:nth-child(odd) > * {
+    background-color: rgb(254, 223, 212);
+}
+
+@media screen and (min-width: 576px){
+    div.table-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.table-responsive {
+        width: 70%;
+    }
+}
