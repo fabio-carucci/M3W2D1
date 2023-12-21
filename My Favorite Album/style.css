@@ -1,0 +1,13 @@
+nav.navbar {
+    background: linear-gradient(to bottom, coral, whitesmoke);
+
+}
+
+button.navbar-toggler {
+    border-color: rgb(255, 102, 46);
+    background: linear-gradient(to top, transparent, coral);
+}
+
+main {
+    background-color: whitesmoke;
+}
