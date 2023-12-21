@@ -56,6 +56,18 @@ div.album-card div.name-artist h6, div.album-card div.genre-duration div {
     text-overflow: ellipsis;
 }
 
+@media screen and (max-width: 576px){
+    div.album-card div.name-artist h6, div.album-card div.genre-duration div {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    div.album-card div.name-artist h6, div.album-card div.genre-duration div {
+        font-size: 0.6em;
+    }
+}
+
 div.album-card div.name-artist h6.name {
     font-weight: bold;
 }
